@@ -1,0 +1,26 @@
+#one{
+	padding: 2em;
+	text-align: center;
+	background-color: pink;
+}
+#two{
+	padding: 3em;
+	text-align: center;
+	background-color: orange;
+}
+#three{
+	padding: 3.5em;
+	text-align: center;
+	background-color: green;
+}
+#four{
+	padding: 2.5em;
+	text-align: center;
+	background-color: yellow;
+}
+.f{
+	color: white;
+	padding: 2.5em;
+	margin-top: 1em;
+	background-color: #5f5f5f;
+}

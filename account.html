@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Account Registration</title>
+	<link rel="stylesheet" type="text/css" href="css/account.css">
+</head>
+<body>
+	<h1>Create Account</h1>
+	<form action="account.html">
+		<label for="name">Your Full Name:</label>
+		<input type="text" name="name" id="name" maxlength="50" class="form-input" required="required" />
+		
+		<label for="mobile">Mobile Number:</label>
+		<input type="number" name="mobile" id="mobile" class="form-control" required="required" />
+		
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" class="form-control" required="required" />
+		
+
+		<label for="rollno">Roll Number(if applicable):</label>
+		<input type="text" name="rollno" id="rollno" class="form-control" required="required" />
+		
+
+		<label for="user">User Name:</label>
+		<input type="text" name="user" id="user" class="form-control" required="required" />
+		<span id="userer"></span><br>
+		
+
+		<label for="pass">Enter password:</label>
+		<input type="password" name="pass" id="pass" class="form-control" required="required" />
+		
+		<label for="cpass">Confirm Password:</label>
+		<input type="password" name="cpass" id="cpass" class="form-control" required="required" />
+		
+			<input type="submit" name="submit" value="Create Account" class="form-control">
+	</form>
+	<script src="js/account.js"></script>
+</body>
+</html>
